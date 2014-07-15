@@ -1,0 +1,5 @@
+<apex:page id="thePage" StandardController="Disability__c">
+	<apex:pageBlock id="pb1"> 
+	    <c:CustomLookup id="customLkp" fieldSet="Disability_LK_Field_Set" sobjectType="Disability__c"/>
+	</apex:pageBlock>
+</apex:page>

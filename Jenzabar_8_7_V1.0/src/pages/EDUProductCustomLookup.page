@@ -1,0 +1,5 @@
+<apex:page id="page" StandardController="EDU_Product__c">
+    <apex:pageBlock id="pb1"> 
+        <c:CustomLookup id="customLkp" sobjectType="EDU_Product__c"/>
+    </apex:pageBlock>
+</apex:page>
